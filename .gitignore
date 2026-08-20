@@ -1,0 +1,8 @@
+.handoff/
+__pycache__/
+*.pyc
+*.raw
+*.log
+*.metrics.json
+.env
+.env.*
