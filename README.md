@@ -65,6 +65,10 @@ reports, or this repository.
 For the local OpenCode track, configure an explicit local provider prefix and model ID. Cloud
 fallbacks are not accepted as a replacement for a contracted local model track.
 
+In nowrap's reference setup, OpenCode connects to an Ollama instance running on a Mac mini. This is
+an example deployment topology rather than a requirement; private endpoint and provider settings
+are intentionally not included in this repository.
+
 ## Security
 
 - Review shell scripts before running them in your environment.
