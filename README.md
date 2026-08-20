@@ -1,6 +1,7 @@
 # OOTBT Skills
 
-Evidence-first review skills for Hermes Agent and compatible agent harnesses.
+Evidence-first review skills for [Hermes Agent](https://github.com/NousResearch/hermes-agent) and
+compatible agent harnesses.
 
 ## Included skills
 
@@ -51,9 +52,9 @@ different skill directory or adapter; do not assume tool, hook, or sandbox parit
 The workflows are intentionally fail-closed. Depending on the selected profile and tracker, they
 may require installed and authenticated CLIs such as:
 
-- `codex`
-- `claude`
-- `opencode`
+- [Claude Code](https://github.com/anthropics/claude-code) (`claude`)
+- [Codex](https://github.com/openai/codex) (`codex`)
+- [OpenCode](https://github.com/anomalyco/opencode) (`opencode`)
 - `acli` for Jira
 - `glab` for GitLab
 
